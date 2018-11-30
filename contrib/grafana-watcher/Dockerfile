@@ -1,4 +1,4 @@
-FROM quay.io/prometheus/busybox:latest
+FROM jianghang8421/prom-busybox:uclibc-arm64-support
 
 ADD grafana-watcher /bin/grafana-watcher
 
